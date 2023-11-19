@@ -1,12 +1,12 @@
 
- function Input(handleChange) {
-  return <>
-     <label className="sidebar-label-container">
-          <input onChange={handleChange} type="radio" value="" name="test" />
-          <span className="checkmark"></span>All
-        </label>
-  </>
-    
-  
-}
+ function Input(handleChange,value ,title, name ,color ) {
+  return (
+    <label className="sidebar-label-container">
+      <input onChange={handleChange} type="radio" value={value} name={name} />
+      <span className="checkmark" style={{ backgroundColor: color }}></span>
+      {title}
+    </label>
+  );
+};
+      
 export default Input;

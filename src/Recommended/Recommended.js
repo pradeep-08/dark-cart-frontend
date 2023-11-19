@@ -6,10 +6,9 @@ import "../Recommended/Recommended.css"
         <h2 className="recommended-title">Recommended</h2>
         <div className="recommended-flex">
           <button className="btns">All Products</button>
-          <button className="btns">Low</button>
-          <button className="btns">High</button>
-          <button className="btns">Meidum</button>
-          <button className="btns">Offer</button>
+          <button className="btns">Nike</button>
+          <button className="btns">Puma</button>
+          <button className="btns">Others</button>
           
         </div>
       </div>
