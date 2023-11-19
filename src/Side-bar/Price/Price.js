@@ -5,12 +5,34 @@ import "./Price.css"
   return <>
   <div>
       <h2 className="sidebar-title">Price</h2>
-
+      <label className="sidebar-label-container">
+          <input onChange={handleChange} type="radio" value=""  />
+          <span className="checkmark" ></span>All
+        </label>
       <div>
-      <Input/>
-      <Input/>
-      <Input/>
-      <Input/>
+      <Input 
+          handleChange={handleChange}
+          value="{500}"
+          name="₹0-500"
+        />
+      
+      <Input 
+          handleChange={handleChange}
+          value="{800}"
+          name="₹500-800"
+        />
+     
+      <Input 
+          handleChange={handleChange}
+          value="{1000}"
+          name="₹800-1000"
+        />
+      <Input 
+          handleChange={handleChange}
+          value="{1000}"
+          name="Above ₹1000"
+        />
+     
         {/* <label className="sidebar-label-container">
           <input onChange={handleChange} type="radio" value="" name="test" />
           <span className="checkmark"></span>Under ₹500
