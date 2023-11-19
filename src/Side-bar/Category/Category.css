@@ -5,10 +5,12 @@
     border-radius: 10px;
     box-shadow: 1px 1px 6px 0px rgba(0,0,0,0.75);
     padding: 5px;
+    color: #3E3D56;
   }
   
   .sidebar-items {
     margin-top: 40px;
+    color: #171B20;
   }
   .input-radio{
     height:15px;
@@ -18,12 +20,16 @@
     display: block;
     position: relative;
     padding-left: 35px;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     cursor: pointer;
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
     user-select: none;
+    color: #164988;
+    font-weight: bolder;
+    
+   
   }
   
   .sidebar-label-container input {
@@ -40,6 +46,8 @@
     width: 20px;
     background-color: #eee;
     border-radius: 80%;
+    color: #171B20;
+    font-weight: bold;
   }
   
   .all {
@@ -58,6 +66,7 @@
     content: "";
     position: absolute;
     display: none;
+    color: #171B20;
   }
   
   .sidebar-label-container input:checked ~ .checkmark:after {
