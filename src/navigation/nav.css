@@ -16,5 +16,21 @@ input{
     margin-right: 20px;
     border-radius: 15px;
     position: relative;
-    width: 40rem;
+    width: 30rem;
 }
+@media screen and (max-width: 768px) and (min-width: 375px) {
+    input{
+        padding: 12px 20px;
+        border:none;
+        background: #f7f6f6;
+        outline: none;
+        margin-left: 150px;
+        border-radius: 15px;
+        position: relative;
+        width: 20rem;
+        
+    }
+    .nav-container{
+        margin-left: 10rem;
+    }
+  }

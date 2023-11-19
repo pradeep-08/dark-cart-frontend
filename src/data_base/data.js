@@ -3,7 +3,7 @@
     {
     "id": "e43638ce-6aa0-4b85-b27f-e1d07eb678c6",
     "image": "https://m.media-amazon.com/images/I/61hjQIFjtUL._SY741_.jpg",
-    "name": "XYXX Men 100% Cotton Polo Tshirt",
+    "name": "XYXX Men  Polo Tshirt",
     "stars": 4.4,
     "prevPrice": "1,199",
     "newPrice": "499",

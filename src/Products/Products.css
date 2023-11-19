@@ -19,10 +19,12 @@
 .card-img{
     width: 13rem;
     margin-bottom: 1rem;
+    
 }
 
 .card-title{
     margin-bottom: 1rem;
+    word-wrap: wrap;
 }
 
 .card-reviews{
@@ -30,12 +32,31 @@
     display: flex;
 }
 
-.total-reviews{
-    font-size: 0.9rem;
-    margin-left: 10px;
-}
 .card-price{
      display: flex;
      justify-content: space-around;
      align-items: center;
+     font-weight: bolder;
 }
+
+@media screen and (max-width: 768px) and (min-width: 375px) {
+    .card-container{
+        display: flex;
+        margin-left:10rem;
+        margin-top: 2rem;
+        z-index: -2;
+    }
+    .card-img{
+        width: 20rem;
+        margin-bottom: 1rem;
+        
+    }
+    .card{
+        margin: 20px;
+        border: 2px solid #c0c0c0;
+        padding: 20px;
+        border-radius: 15px;
+        cursor: pointer;
+        box-shadow: 1px 4px 2px 0px rgba(0,0,0,0.6);
+    }
+  }
