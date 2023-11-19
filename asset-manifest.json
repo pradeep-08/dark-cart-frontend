@@ -1,14 +1,14 @@
 {
   "files": {
-    "main.css": "/dark-cart-frontend/static/css/main.a5a3e34e.css",
-    "main.js": "/dark-cart-frontend/static/js/main.f785e795.js",
+    "main.css": "/dark-cart-frontend/static/css/main.c24fcfd1.css",
+    "main.js": "/dark-cart-frontend/static/js/main.d0a8a437.js",
     "static/media/Capture.PNG": "/dark-cart-frontend/static/media/Capture.dc5be177c35d65102806.PNG",
     "index.html": "/dark-cart-frontend/index.html",
-    "main.a5a3e34e.css.map": "/dark-cart-frontend/static/css/main.a5a3e34e.css.map",
-    "main.f785e795.js.map": "/dark-cart-frontend/static/js/main.f785e795.js.map"
+    "main.c24fcfd1.css.map": "/dark-cart-frontend/static/css/main.c24fcfd1.css.map",
+    "main.d0a8a437.js.map": "/dark-cart-frontend/static/js/main.d0a8a437.js.map"
   },
   "entrypoints": [
-    "static/css/main.a5a3e34e.css",
-    "static/js/main.f785e795.js"
+    "static/css/main.c24fcfd1.css",
+    "static/js/main.d0a8a437.js"
   ]
 }
