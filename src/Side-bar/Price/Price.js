@@ -1,3 +1,4 @@
+import Input from "../../components/input";
 import "./Price.css"
 
  function Price({ handleChange }) {
@@ -6,7 +7,11 @@ import "./Price.css"
       <h2 className="sidebar-title">Price</h2>
 
       <div>
-        <label className="sidebar-label-container">
+      <Input/>
+      <Input/>
+      <Input/>
+      <Input/>
+        {/* <label className="sidebar-label-container">
           <input onChange={handleChange} type="radio" value="" name="test" />
           <span className="checkmark"></span>Under ₹500
         </label>
@@ -25,7 +30,7 @@ import "./Price.css"
         <label className="sidebar-label-container">
           <input onChange={handleChange} type="radio" value="" name="test" />
           <span className="checkmark"></span>Over ₹3,000
-        </label>
+        </label> */}
        
       </div>
     </div>
