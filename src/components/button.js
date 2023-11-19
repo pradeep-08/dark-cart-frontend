@@ -1,8 +1,8 @@
 
 
- function button() {
+ function Button({onClickHandler , value , title}) {
   return (
-    <div>button</div>
+    <button onClick={onClickHandler} value={value} className="btns">{title}</button>
   )
 }
-export default button;
+export default Button;

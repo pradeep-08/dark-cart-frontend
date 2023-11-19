@@ -10,23 +10,29 @@ function Category({ handleChange }) {
       <div>
     
         <label className="sidebar-label-container">
-          <input onChange={handleChange} type="radio"   />
+         <input onChange={handleChange} type="radio" value="" name="test" />
           <span className="checkmark" ></span>All
         </label>
         <Input
           handleChange={handleChange}
-          value="MEN"
-          name="MEN"
+          value="mens"
+          title="MEN"
+          name="test"
+          
         />
         <Input
           handleChange={handleChange}
-          value="MEN"
-          name="WOMEN"
+          value="womens"
+          title="WOMEN"
+          name="test"
+          
         />
         <Input
           handleChange={handleChange}
-          value="MEN"
-          name="KIDS"
+          value="kids"
+          title="KIDS"
+          name="test"
+          
         />
 
        

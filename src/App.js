@@ -17,9 +17,9 @@ function App() {
   };
 
   const filteredItems = products.filter(
-    (products) => products.name.toLowerCase().indexOf(query.toLowerCase()) !== -1
+    (product) => product.name.toLocaleLowerCase().indexOf(query.toLocaleLowerCase()) !== -1
   );
-
+    console.log(filteredItems);
   // ----------- Radio Filtering -----------
   const handleChange = (event) => {
     setSelectedCategory(event.target.value);
@@ -36,22 +36,22 @@ function App() {
     // Filtering Input Items
     if (query) {
       filteredProducts = filteredItems;
+      console.log(filteredProducts);
     }
 
     // Applying selected filter
     if (selected) {
       filteredProducts = filteredProducts.filter(
-        ({ category, color, company, newPrice, name }) =>
+        ({ category, company,  newPrice, name }) =>
           category === selected ||
-          color === selected ||
-          company === selected ||
           newPrice === selected ||
+          company === selected ||
           name === selected
       );
     }
 
     return filteredProducts.map(
-      ({ image, name, stars,  prevPrice, newPrice }) => (
+      ({ image,  name, stars,  prevPrice, newPrice }) => (
         <Card
           key={Math.random()}
           image={image}
@@ -65,7 +65,7 @@ function App() {
   }
 
   const result = filteredData(products, selectedCategory, query);
-
+  console.log(result);
   return (
     <>
       <Sidebar handleChange={handleChange} />

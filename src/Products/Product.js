@@ -8,7 +8,7 @@
   <section className="card-container">
  {result}
   </section>
-      
+  
   </>
   
 }
